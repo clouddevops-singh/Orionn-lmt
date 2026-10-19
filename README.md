@@ -112,6 +112,7 @@ Use explicit, compatible chart and image versions in the deployment values and l
 ## Repository map
 
 - [`docs/architecture.md`](docs/architecture.md): full topology, network contract, storage, security, sizing decisions, and failure behavior.
+- [`deploy/INSTALL.md`](deploy/INSTALL.md): pinned chart/app versions, Helm install commands, and Kubernetes/API/telemetry verification steps.
 - [`ROADMAP.md`](ROADMAP.md): phased implementation and acceptance criteria.
 - [`deploy/product-cluster/README.md`](deploy/product-cluster/README.md): product-cluster release plan and Helm commands.
 - [`deploy/source-cluster/README.md`](deploy/source-cluster/README.md): per-source-cluster agent plan and configuration contract.
@@ -124,3 +125,4 @@ Use explicit, compatible chart and image versions in the deployment values and l
 - [Tempo Helm deployment](https://grafana.com/docs/tempo/latest/set-up-for-tracing/setup-tempo/deploy/kubernetes/helm-chart/)
 - [Fluent Helm charts](https://github.com/fluent/helm-charts)
 - [OpenTelemetry Collector Helm chart](https://opentelemetry.io/docs/platforms/kubernetes/helm/collector/)
+
